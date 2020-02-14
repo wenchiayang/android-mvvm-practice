@@ -8,14 +8,7 @@ import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import com.example.architectureexample.R;
-import com.example.architectureexample.api.post.PostAPIInterface;
 import com.example.architectureexample.api.post.Post;
-import com.example.architectureexample.scences.main.MainActivity;
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
-import retrofit2.Retrofit;
-import retrofit2.converter.gson.GsonConverterFactory;
 
 import java.util.List;
 

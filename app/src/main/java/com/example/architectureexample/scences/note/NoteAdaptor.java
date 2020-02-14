@@ -1,4 +1,4 @@
-package com.example.architectureexample.scences.main;
+package com.example.architectureexample.scences.note;
 
 import android.view.LayoutInflater;
 import android.view.View;

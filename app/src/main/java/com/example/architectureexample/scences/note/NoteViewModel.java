@@ -1,4 +1,4 @@
-package com.example.architectureexample.scences.main;
+package com.example.architectureexample.scences.note;
 
 import android.app.Application;
 import androidx.annotation.NonNull;

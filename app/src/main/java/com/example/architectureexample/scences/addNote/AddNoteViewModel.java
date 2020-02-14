@@ -4,7 +4,7 @@ import android.app.Application;
 import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
 import com.example.architectureexample.model.note.Note;
-import com.example.architectureexample.scences.main.NoteRepository;
+import com.example.architectureexample.scences.note.NoteRepository;
 
 public class AddNoteViewModel extends AndroidViewModel {
     private NoteRepository repository;
