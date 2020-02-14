@@ -1,0 +1,19 @@
+package com.example.architectureexample.scences.main.fragments;
+
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+import com.example.architectureexample.R;
+
+public class FolderFragment extends Fragment {
+    @Nullable
+    @Override
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        // you can view.findViewById here
+        return inflater.inflate(R.layout.fragment_folder, container, false);
+    }
+}
